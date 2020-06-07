@@ -18,4 +18,11 @@
   http://www.imparareaprogrammare.it
 */
 
-var cats = 44;
+let cats = 44;
+let fila = 14;
+let file = Math.round(cats/fila);
+let resto = cats-(file*fila);
+let mancanti = file - resto
+console.log(file);
+console.log(mancanti);
+
